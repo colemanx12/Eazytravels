@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - Eazy Travels</title>
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">
+        <img src="./assets/images/logo.svg" alt="Eazy Travels logo">
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2 class="h2 section-title">Get in Touch</h2>
+        <p class="section-text">Have questions or need assistance? Send us a message!</p>
+
+        <form id="contactForm" class="contact-form" method="post" action="#">
+
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+          </div>
+
+          <div class="input-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+          </div>
+
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Write your message" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary">Send Message</button>
+        </form>
+
+        <p id="formResponse" class="form-response"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="copyright"> “Copyright UP2308167”</p>
+    </div>
+  </footer>
+
+  <script src="./assets/js/script.js" defer></script>
+</body>
+
+</html>
